@@ -1,4 +1,4 @@
-import { DBPool, MQTT_TOPIC, QueryItem, db } from './config/index';
+import { MQTT_TOPIC, QueryItem, db } from './config/index';
 import mqtt from 'mqtt';
 import { logger } from './utils/logger';
 
