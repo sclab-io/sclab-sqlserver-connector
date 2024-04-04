@@ -63,6 +63,7 @@ class APIController {
           message: 'SQL inject data detected.',
         }),
       );
+      return;
     }
 
     try {
