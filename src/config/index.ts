@@ -1,4 +1,3 @@
-import { logger } from '@/utils/logger';
 import { config } from 'dotenv';
 import sql from 'mssql';
 

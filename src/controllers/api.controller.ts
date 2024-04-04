@@ -4,7 +4,7 @@ import { getPlaceHolders, hasSql, replaceString } from '@/utils/util';
 import { logger } from '@/utils/logger';
 
 class APIController {
-  mappingRequestData(query: string, queryData: any, isCheckInjection: boolean = false): string {
+  mappingRequestData(query: string, queryData: any, isCheckInjection = false): string {
     // data mapping
     const paramKeys = getPlaceHolders(query);
 
